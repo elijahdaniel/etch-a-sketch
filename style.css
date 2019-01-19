@@ -1,0 +1,42 @@
+body {
+   display: table; 
+   margin: 0 auto;
+   background: rgb(255, 255, 255);
+}
+
+#container {
+    width: 630px;
+    height: 100%;
+    position: relative;
+    vertical-align: middle; 
+    border: 5px solid rgb(33, 166, 255); 
+    border-radius: 10px;
+}
+#container div {
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#btn {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(33, 166, 255);
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 800;
+    background: rgb(255, 255, 255);
+    color: rgb(33, 166, 255);
+    padding: 5px 15px;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+#btn:hover {
+    border: 1px solid rgb(33, 166, 255);
+    background: rgb(33, 166, 255);
+    color: white;
+}
+
+#btn:focus {
+    outline: none;
+}
