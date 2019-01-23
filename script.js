@@ -22,7 +22,7 @@ function hoverOver() {
 
 // random color picker
 function randomColor() {
-    let randomColor = Math.floor(Math.random() * 600);
+    let randomColor = Math.floor(Math.random() * 255);
     return randomColor;
 }
 
