@@ -6,7 +6,7 @@ for (var i = 0; i < num; i++) {
         divGrid.style.width = '16px';
         divGrid.style.height = '16px';
         divGrid.style.background = 'white';
-        divGrid.style.border = '1px solid lightgray';
+        divGrid.style.border = '1px solid white';
         divGrid.addEventListener('mouseover', hoverOver);
         container.appendChild(divGrid);
     }
